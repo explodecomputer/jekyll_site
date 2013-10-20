@@ -1,0 +1,13 @@
+---
+layout: default
+title: 100miles
+---
+
+
+<div id="home">
+  <div class="posts">
+    {% for post in site.categories[page.title] %}
+		{% include post_link.html %}
+    {% endfor %}
+  </div>
+</div>

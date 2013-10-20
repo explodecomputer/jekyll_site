@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Micromort"
+date:   2011-01-01 03:31:34
+categories: 
+- Blog
+tags: 
+- Statistics 
+---
+
+
+[Matt Parker](http://www.standupmaths.com/) read an excerpt from his Fringe routine on Radio 4 some months ago. I opted to copy it down before it disappears:
+
+<!--more-->
+
+> Whenever you do something there's a chance it might kill you. Taking ecstacy for example, might kill you. The numbers tell us that for every million ecstacy pills taken 1 person will die as a result. So taking ecstacy exposes you to a one in a million chance of death, which is why I've mentioned it - mathematicians have a name for a one in a million probability of dying, they're called a micromort. So taking ecstacy costs you one micromort. Statistically speaking if you go canoeing there is a one in a million chance of dying for every six minutes spent in a canoe. So six minutes canoeing is equivalent to taking ecstacy. As a non-rigorous form of probability, we can now use the micromort to compare all sorts of risks. As a baseline, averaged across your entire life, everyday just by existing, you risk 30 micromorts - a 30 in a million chance of dying, just by existing. However your probability of dying actually goes up dramatically towards the end of your life and is much less earlier on. So an average 30-something in the uk is only exposed to 2.5 micromorts on any normal day. About 0.5-1 micromort each day is down to random accidents. In 2008 for example, 96 people died because they fell out of bed. This turns out to be 1 micromort risk, due to falling out of bed, for every 207 nights' sleep you get. If you really want to increase your chances of dying though you need to do something like sky diving - 17 micromorts; or scuba diving - 5 micromorts. There are all sorts of ways you can pay good money to increase your chances of dying. You can go hand gliding, that will be 8 micromorts. Or of course you could pay money to reduce your odds of dying. If you look at what people spend on safety gear, such as crash helmets or optional air bags for cars, it works out that people value their lives at approximately £25 for every micromort they can avoid. This can be compared with transport for london, who for every micromort avoided by a commuter will spend on average $1.40. The reason why a unit like micromorts can be useful is because as humans we have no real intuitive idea of the probability of risk. We're oversensitive to some risks, and blazé about other things that could be much more dangerous. you can spend your life worrying about what aspects of your life might give you cancer, and then not think twice about crossing the road unnecessarily, which is actually a much bigger risk and far easier to avoid. By crunching the numbers, and calculating the statistical probability of death, we can approach risk in a much more logical manner, and make inform choices. Sure we could instigate a national ban on duvets, and enforce tucking in with sheets and blankets, just to save those 96 lives a year, but a more reasoned look at statistics could put everything into perspective. Although to be honest you probably didn't need to look at the statistics to know it's not a good idea to take ecstacy while canoeing.

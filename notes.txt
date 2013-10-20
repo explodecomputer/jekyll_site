@@ -1,0 +1,13 @@
+Flickr key: 51d1760a647d16bb65633f271758fdda
+Flickr secret: 74384f3cda96b6d9
+
+index.html - 
+This will have:
+- links to github, twitter, main page
+- a large background image
+- some intro text
+
+recent.html -
+This will be the first link to the website
+- 
+

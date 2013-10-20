@@ -1,0 +1,13 @@
+name: explodecomputer
+markdown: redcarpet
+pygments: true
+permalink: none
+excerpt_separator: <!--more-->
+flickr_set:
+    gallery_tag:   'p'
+    gallery_class: 'gallery'
+    a_href:        'nil'
+    a_target:      '_blank'
+    image_rel:     ''
+    image_size:    's'
+    api_key:       '51d1760a647d16bb65633f271758fdda'
