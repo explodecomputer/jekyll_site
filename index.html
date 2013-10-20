@@ -1,8 +1,16 @@
 ---
 layout: default
+title: index
 ---
 
-<h1>About</h1>
+<h1>Recent posts</h1>
 
+<div id="home">
+  <div class="posts">
+    {% for post in site.posts %}
+		{% include post_link_recent.html %}
+    {% endfor %}
+  </div>
+</div>
 
 

@@ -23,7 +23,7 @@ module Jekyll
     }
 
     $category_images = {
-      "index" => "moss_pots.jpg",
+      "index" => "misty_trees.jpg",
       "blog" => "misty_trees.jpg",
       "100miles" => "slanted_trees.jpg",
       "pinkerbook" => "battle.jpg",
