@@ -4,8 +4,7 @@ title:  "epiGPU: exhaustive pairwise epistasis scans parallelized on consumer le
 date:   2013-10-19 15:18:00
 categories: 
 - publications
-tags:
-- genetics epistasis statistics gpgpu programming
+tags: Genetics Epistasis Statistics GPGPU Programming
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -4,8 +4,7 @@ title:  "Detection and replication of epistasis influencing transcription in hum
 date:   2013-10-19 15:18:00
 categories: 
 - publications
-tags:
-- epistasis genetics programming gpgpu
+tags: Epistasis Genetics Programming GPGPU
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

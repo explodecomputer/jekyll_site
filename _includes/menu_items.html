@@ -1,2 +1,5 @@
 {% for category in site.categories %}{% if category[0] == page.title %}{% assign btn = 'list-group-item active' %}{% else %}{% assign btn = 'list-group-item' %}{% endif %}{% assign group = category[0] | category_group %}{% if group == thisgroup %}<a class="{{ btn }}" href="/{{ category[0] }}.html">{{ category[0] | parse_category }}</a>{% endif %}
 {% endfor %}
+
+<!-- {% for category in site.categories %}{% if category[0] == page.title %}{% assign btn = 'list-group-item active' %}{% else %}{% assign btn = 'list-group-item' %}{% endif %}{% assign group = category[0] | category_group %}{% if group == thisgroup %}<div><a href="/{{ category[0] }}.html"><code>{{ category[0] | parse_category }}</code></a></div><br/>{% endif %}
+{% endfor %} -->

@@ -4,8 +4,7 @@ title:  "To which scientific question is epistasis the answer?"
 date:   2013-10-19 15:18:00
 categories: 
 - publications
-tags:
-- epistasis genetics
+tags: Epistasis Genetics
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

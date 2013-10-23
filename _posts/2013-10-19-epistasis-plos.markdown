@@ -4,8 +4,7 @@ title:  "An evolutionary perspective on epistasis and the missing heritability"
 date:   2013-10-19 15:18:00
 categories: 
 - publications
-tags:
-- genetics epistasis evolution statistics algorithms programming
+tags: Genetics Epistasis Evolution Statistics Algorithms Programming
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

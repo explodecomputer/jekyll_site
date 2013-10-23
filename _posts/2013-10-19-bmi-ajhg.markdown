@@ -4,7 +4,7 @@ title:  "Inference of the genetic architecture of BMI and height with the use of
 date:   2013-10-19 15:18:00
 categories: 
 - publications
-tags: statistics genetics
+tags: Statistics Genetics
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
