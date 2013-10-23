@@ -2,35 +2,79 @@
 <html>
     {% include header.html %}
 
+<style>
+body {
+/*  background-image:url('assets/dark_Tire.png');
+  background-repeat:repeat-y repeat-x;
+*/}
+table {
+  margin: 0 auto; }
+
+th {
+  font-weight: normal;
+  text-align: right;
+  padding: 0 0 0 0; 
+  line-height: 1.5;
+}
+
+/*th a {
+  text-decoration: underline;
+}
+
+th a:hover {
+  text-decoration: none;
+}
+*/
+.spacing {
+  padding-top: 1em;
+}
+.orange {
+  color: #bf4d28;
+}
+.brown {
+  color: orange;
+}
+.inactive, .lightgrey {
+  color: #bbbbbb;
+}
+.darkgrey {
+  color: #888;
+}
+
+td:before {
+  /*content: "2022";*/
+  padding-right: 0.5em; }
+
+td {
+  font-style: italic;
+  text-align: left;
+  padding: 0 0 0 0.5em; }
+
+.padded {
+  padding: 1em 0.5em 0 0.5em;
+}
+
+.row {
+  line-height: 1.5em;
+}
+
+
+</style>
+
     <body>
-      <img src="assets/{{ page.title | category_image }}" id="bg" alt="">
 
       <div id="wrap">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-xs-4">
-              <p><a href="http://github.com/explodecomputer">github</a> / <a href="http://twitter.com/explodecomputer">twitter</a> / <a href="/">homepage</a></p>
-              
+            <div class="col-lg-6 col-xs-12">
+              <table>
+                {% assign thisgroup = 'general' %}{% include menu_items.html %}
+                {% assign thisgroup = 'booknotes' %}{% include menu_items.html %}
+                {% assign thisgroup = 'projects' %}{% include menu_items.html %}
+                <tr><th class="spacing"><a class="brown" href="http://github.com/explodecomputer">github</a> / <a class="brown" href="http://twitter.com/explodecomputer">twitter</a> / <a class="brown" href="/">email</a></th><td></td></tr>
+              </table>
             </div>
-            <div class="col-lg-8 col-xs-8">
-              
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-5 col-xs-12">
-              <div class="list-group">{% assign thisgroup = 'general' %}{% include menu_items.html %}
-              </div>
-
-              <h4>Projects</h4>
-              <div class="list-group">{% assign thisgroup = 'projects' %}{% include menu_items.html %}
-              </div>
-
-              <h4>Book notes</h4>
-              <div class="list-group">{% assign thisgroup = 'booknotes' %}{% include menu_items.html %}
-              </div>
-
-            </div>
-            <div class="col-lg-7 col-xs-12">
+            <div class="col-lg-6 col-xs-12">
 
               {{ content }}
 
@@ -38,16 +82,5 @@
           </div>
         </div>
       </div>
-
-      <div id="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <p class="text-muted credit">Gibran Hemani &raquo; explodecomputer@gmail.com &raquo; <a href="https://github.com/explodecomputer">github.com/explodecomputer</a> &raquo; <a href="https://twitter.com/explodecomputer">twitter.com/explodecomputer</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </body>
 </html>

@@ -1,5 +1,21 @@
-{% for category in site.categories %}{% if category[0] == page.title %}{% assign btn = 'list-group-item active' %}{% else %}{% assign btn = 'list-group-item' %}{% endif %}{% assign group = category[0] | category_group %}{% if group == thisgroup %}<a class="{{ btn }}" href="/{{ category[0] }}.html">{{ category[0] | parse_category }}</a>{% endif %}
+<!-- {% for category in site.categories %}{% if category[0] == page.title %}{% assign btn = 'list-group-item active' %}{% else %}{% assign btn = 'list-group-item' %}{% endif %}{% assign group = category[0] | category_group %}{% if group == thisgroup %}<a class="{{ btn }}" href="/{{ category[0] }}.html">{{ category[0] | parse_category }}</a>{% endif %}
 {% endfor %}
-
+ -->
 <!-- {% for category in site.categories %}{% if category[0] == page.title %}{% assign btn = 'list-group-item active' %}{% else %}{% assign btn = 'list-group-item' %}{% endif %}{% assign group = category[0] | category_group %}{% if group == thisgroup %}<div><a href="/{{ category[0] }}.html"><code>{{ category[0] | parse_category }}</code></a></div><br/>{% endif %}
 {% endfor %} -->
+
+
+
+{% assign groupcount = 1 %}
+{% for category in site.categories %}
+{% if category[0] == page.title %}
+{% assign btn = 'active' %}
+{% else %}
+{% assign btn = 'inactive' %}
+{% endif %}
+{% assign group = category[0] | category_group %}
+{% if group == thisgroup %}
+<tr><th {% if groupcount == 1 %}class="spacing"{% endif %}><a class="{{ btn }}" href="/{{ category[0] }}.html">{{ category[0] | parse_category }}</a></th><td class="spacing darkgrey">{% if groupcount == 1 %}&#8226;{% endif %}</td><td class="spacing darkgrey">{% if groupcount == 1 %}{{ group }}{% endif %}</td><tr>
+{% assign groupcount = groupcount | plus:1 %}
+{% endif %}
+{% endfor %}
