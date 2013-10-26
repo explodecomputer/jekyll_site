@@ -46,6 +46,7 @@ td:before {
   padding-right: 0.5em; }
 
 td {
+  font-family: 'Pierpoint Italic';
   font-style: italic;
   text-align: left;
   padding: 0 0 0 0.5em; }
@@ -54,8 +55,16 @@ td {
   padding: 1em 0.5em 0 0.5em;
 }
 
+th {
+  font-family: 'Pierpoint Regular';
+}
+
 .row {
   line-height: 1.5em;
+}
+
+.hlinks {
+  font-family: 'lucida console';
 }
 
 
@@ -71,7 +80,7 @@ td {
                 {% assign thisgroup = 'general' %}{% include menu_items.html %}
                 {% assign thisgroup = 'booknotes' %}{% include menu_items.html %}
                 {% assign thisgroup = 'projects' %}{% include menu_items.html %}
-                <tr><th class="spacing"><a class="brown" href="http://github.com/explodecomputer">github</a> / <a class="brown" href="http://twitter.com/explodecomputer">twitter</a> / <a class="brown" href="/">email</a></th><td></td></tr>
+                <tr><th class="spacing hlinks"><a class="brown" href="http://github.com/explodecomputer">github</a> / <a class="brown" href="http://twitter.com/explodecomputer">twitter</a> / <a class="brown" href="/">email</a></th><td></td></tr>
               </table>
             </div>
             <div class="col-lg-6 col-xs-12">
