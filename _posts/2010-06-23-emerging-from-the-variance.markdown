@@ -10,6 +10,7 @@ tags:
 ---
 
 Here are some epistatic patterns:
+
 <!--more-->
 
 ![Epistatic patterns]({{ site.url }}/assets/patterns.jpg)
