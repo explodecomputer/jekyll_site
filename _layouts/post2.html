@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include header2.html %}
+<style>
+
+/*  border-left:40px solid #ffeeee;
+  border-right:200px solid #292723;
+*/
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #292723;
+}
+
+p a {
+  color: #5F129B;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+}
+
+p a:visited {
+  color: #5F129B;
+}
+
+p a:hover {
+  border-bottom: 1px solid #5F129B;
+  text-decoration: none;
+}
+
+blockquote {
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+p code {
+  font-family: 'Courier new', monospace;
+  background-color: #f8f8f8;
+  border: #ddd 1px solid;
+  border-radius: 4px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+/*pre code {
+  font-family: 'Courier new', monospace;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  padding: 2px;
+  font-size: 14px;
+}
+*/
+
+body
+{
+  background-color: #292723;
+  font-family: "Diavlolight", "Arial";
+}
+
+.row {
+  min-height: 100%;
+  height: 100%;
+}
+
+#a
+{
+  position: relative;
+  padding: 0px 0px 0px 50px;
+  background-color: #ffeeee;
+}
+
+#b
+{
+  position: relative;
+  padding: 20px 50px 40px 50px;
+  background-color: #ffeeee;
+}
+
+#ccont {
+  /*padding: 10px 10px 10px 10px;*/
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
+  /*padding-left: 20px;*/
+}
+
+
+#ccont p {
+  color: #D39797;
+  /*padding-left: 20px;*/
+}
+
+
+
+#ccont p a {
+  color: #D87939;
+  text-decoration: none;
+  font-variant: small-caps;
+  border-bottom: 1px solid #111;
+}
+
+#ccont p a:hover {
+  border-bottom: 1px solid #D87939;
+}
+
+.category {
+}
+
+.answer {
+  font-variant: small-caps;
+}
+
+.contentcol {
+  background-color: #ffeeee;
+}
+
+.sidecol {
+  margin: 50px;
+}
+
+#leftRail {
+  position: relative;
+  padding: 20px 0px;
+}
+
+#leftRail img {
+  width: 30px;
+  height: 30px;
+}
+
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 contentcol">
+        <div id="a">
+          <h2>{{ page.title }}</h2>
+        </div>
+        <div id="b">
+          {{ content }}
+        </div>
+      </div>
+      <div col class="col-sm-2">
+        <div id="ccont">
+          <div id="leftRail">
+            <a href="/"><img src="/assets/icons/home_mid.png" alt="home"></a>
+            <a href="/about.html"><img src="/assets/icons/user_mid.png" alt="about"></a>
+            <a href="/tags.html"><img src="/assets/icons/tags_mid.png" alt="tags"></a><br/>
+            <a href="/links.html"><img src="/assets/icons/links_mid.png" alt="links"></a>
+            <a href="http://twitter.com/explodecomputer"><img src="/assets/icons/twitter_mid.png" alt="twitter"></a>
+            <a href="http://github.com/explodecomputer"><img src="/assets/icons/github_mid.png" alt="github"></a>
+          </div>
+          <div>
+            <p>This post was written on the <span class="answer">{{ page.date | date_to_string }}</span> by <a href="mailto:explodecomputer@gmail.com">Gibran Hemani</a></p>
+            <p><span class="category">Category:</span><br/>
+              <a href="/{{ page.categories[0] }}.html">{{ page.categories[0] | parse_category }}</a></p>
+            <p><span class="category">Tags:</span><br/>
+              {% for tag in page.tags %}<a href="#">{{ tag }}</a>, {% endfor %}</p></p>
+            <p><span class="category">Previous post:</span><br/>
+              <a href="{{page.previous.url}}" title="{{page.previous.title}}">{{page.previous.title}}</a></p>
+            <p><span class="category">Next post:</span><br/>
+              <a href="{{page.next.url}}" title="{{page.next.title}}">{{page.next.title}}</a></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>

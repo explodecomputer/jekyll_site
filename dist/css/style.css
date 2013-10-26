@@ -1,0 +1,100 @@
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #292723;
+}
+
+p code {
+  font-family: 'Courier new', monospace;
+  background-color: #f8f8f8;
+  border: #ddd 1px solid;
+  border-radius: 4px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+body
+{
+  background-color: #292723;
+  margin-top: 0px;
+}
+
+#ccont {
+  /*padding: 10px 10px 10px 10px;*/
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
+  text-align: center;
+  /*padding-left: 20px;*/
+}
+
+#ccont p {
+  color: #D39797;
+  /*padding-left: 20px;*/
+}
+
+#ccont p a {
+  color: #D87939;
+  text-decoration: none;
+  font-variant: small-caps;
+  border-bottom: none;
+}
+
+#ccont p a:hover {
+  border-bottom: 1px solid #D87939;
+}
+
+.answer {
+  font-variant: small-caps;
+}
+
+.contentcol {
+  background-color: #ffeeee;
+}
+
+.sidecol {
+  margin: 50px;
+}
+
+#icons {
+  position: relative;
+  padding: 20px 0px;
+}
+
+#icons img {
+  width: 30px;
+  height: 30px;
+}
+
+#ccont code {
+  font-family: 'Courier new', monospace;
+  border: none;
+  background-color: transparent;
+  border-radius: none;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+#ccont code a {
+  text-decoration: none;
+  background-color: #56524B;
+  font-family: monospace;
+  font-variant: normal;
+  font-style: normal;
+  border-radius: 4px;
+  border: none;
+  color: #292723;
+  padding: 2px 4px;
+  /*margin: 0px 1px;*/
+}
+
+#ccont code a:hover {
+  text-decoration: none;
+  border: none;
+  /*margin: 0px;*/
+  color: #ffeeee;
+}
+
+.container {
+  margin-top: 0px;
+}
