@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Tags
+group: Tags
 ---
+
+<h1>Tags</h1>
 
 <div class="row post" style="max-width: 50%; margin: 0px auto;">
 
@@ -10,7 +13,7 @@ title: Tags
 </div>
 
 {% for tag in site.tags %}
-<div class="row" id="{{ tag[0] | replace: ' ', '' }}">
+<div class="list-group" id="{{ tag[0] | replace: ' ', '' }}">
 	<h3>{{ tag[0] }}</h3>
 	{% for post in tag[1] %}
 	{% include archive_link.html %}

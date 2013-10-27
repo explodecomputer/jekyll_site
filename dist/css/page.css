@@ -9,6 +9,10 @@ h2 a {
   text-decoration: none;
 }
 
+h2 {
+    padding: 20px 0px;
+}
+
 h2 a:hover {
   border-bottom: #D87939 1px solid;
   color: #D87939;

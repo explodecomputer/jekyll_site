@@ -1,7 +1,17 @@
 ---
 layout: default
-title: 100miles
+title: zinnbook
+group: Booknotes
 ---
+
+<style>
+h1 {
+    text-align: right;
+}
+
+</style>
+
+## *"A people's history of the United States of America"* by Howard Zinn
 
 
 <div id="home">

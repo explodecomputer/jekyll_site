@@ -1,7 +1,15 @@
 ---
 layout: default
-title: Kind reader,
+title: 'About'
+group: About
 ---
+<style>
+h1 {
+    text-align: left;
+}
+</style>
+
+# Kind Reader,
 
 My name is Gibran Hemani, quantitative geneticist by day, and also by night.
 

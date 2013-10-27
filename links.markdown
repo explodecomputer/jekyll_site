@@ -1,8 +1,15 @@
 ---
 layout: default
 title: Blog roll
+group: Links
 ---
+<style>
+h1 {
+    text-align: left;
+}
+</style>
 
+# Blog roll
 
 Work
 

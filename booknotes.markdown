@@ -1,7 +1,15 @@
 ---
 layout: default
 title: Booknotes
+group: Booknotes
 ---
+<style>
+h1 {
+    text-align: left;
+}
+</style>
+
+# Booknotes
 
 {% for category in site.categories %}
 {% assign group = category[0] | category_group %}

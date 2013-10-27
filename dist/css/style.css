@@ -92,6 +92,14 @@ body
   /*margin: 0px 1px;*/
 }
 
+#ccont code a .current {
+  color: #ffeeee;
+}
+
+#ccont code .current a {
+  color: #ffeeee;
+}
+
 #ccont code a:hover {
   text-decoration: none;
   border: none;
@@ -101,4 +109,17 @@ body
 
 .container {
   margin-top: 0px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+p img {
+  max-width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 0px;
 }

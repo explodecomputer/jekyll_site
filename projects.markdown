@@ -1,7 +1,15 @@
 ---
 layout: default
 title: Projects
+group: Projects
 ---
+<style>
+h1 {
+    text-align: left;
+}
+</style>
+
+# Projects
 
 {% for category in site.categories %}
 {% assign group = category[0] | category_group %}

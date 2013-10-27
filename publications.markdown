@@ -1,13 +1,11 @@
 ---
 layout: default
-title: blog
+title: publications
+group: Publications
 ---
 
+# Publications
 
-<div class="list-group">
 {% for post in site.categories[page.title] %}
 {% include post_link.html %}
 {% endfor %}
-</div>
-
-

@@ -50,19 +50,6 @@ h3 {
 }
 
 
-p img {
-  max-width: 80%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 15px 0px;
-}
-
-iframe {
-  display: block;
-  margin: 15px auto;
-}
-
 p code {
   font-family: 'Courier new', monospace;
   background-color: #f8f8f8;
