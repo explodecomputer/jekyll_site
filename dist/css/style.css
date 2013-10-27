@@ -16,7 +16,7 @@ p code {
 
 body
 {
-  background-color: #292723;
+  background-color: #ffeeee;
   margin-top: 0px;
 }
 
@@ -29,9 +29,13 @@ body
 }
 
 #ccont p {
-  color: #D39797;
+  color: #292723;
   /*padding-left: 20px;*/
 }
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
 
 #ccont p a {
   color: #D87939;
@@ -49,7 +53,7 @@ body
 }
 
 .contentcol {
-  background-color: #ffeeee;
+  /*background-color: #ffeeee;*/
 }
 
 .sidecol {

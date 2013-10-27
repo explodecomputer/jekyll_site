@@ -1,7 +1,8 @@
 p {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
-  color: #292723;
+  /*color: #292723;*/
+  color: #ffeeee;
 }
 
 p a {
@@ -11,7 +12,9 @@ p a {
 }
 
 p a:visited {
-  color: #5F129B;
+
+  <a href="/about.html"><img src="/assets/icons/user_mid.png" alt="about" onmouseover="this.src='/assets/icons/small/user_light.png'" onmouseout="this.src='/assets/icons/small/user_mid.png'"></a>
+  <a href="/tags.html"><img src="/assets/icons/tags_mid.png" alt="tags" onmouseover="this.src='/assets/icons/small/tags_light.png'" onmouseout="this.src='/assets/icons/small/tags_mid.png'"></a><br/>  color: #5F129B;
 }
 
 p a:hover {
@@ -33,18 +36,21 @@ h1 {
   font-family: 'Droid Serif', serif;
   font-size: 40px;
   padding: 20px 0px;
+  color: #ffeeee;
 }
 
 h2 {
   font-family: 'Droid Serif', serif;
   font-size: 24px;
   padding: 20px 0px 10px 0px;
+  color: #ffeeee;
 }
 
 h3 {
   font-family: 'IM Fell Double Pica', serif;
   font-style: italic;
-  color: #56524B;
+  /*color: #56524B;*/
+  color: #ffeeee;
   font-size: 20px;
   padding: 10px 0px 5px 0px;
 }
@@ -69,13 +75,13 @@ p code {
 {
   position: relative;
   padding: 20px 0px 0px 50px;
-  background-color: #ffeeee;
+  /*background-color: #ffeeee;*/
 }
 
 #b
 {
   position: relative;
   padding: 20px 50px 40px 50px;
-  background-color: #ffeeee;
+  /*background-color: #ffeeee;*/
 }
 
