@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 flickr_set:
     gallery_tag:   'p'
     gallery_class: 'gallery'
-    a_href:        'nil'
+    a_href:        'z'
     a_target:      '_blank'
     image_rel:     ''
     image_size:    's'

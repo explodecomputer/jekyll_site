@@ -1,0 +1,20 @@
+---
+layout: default
+title: Tags
+---
+
+<div class="row post" style="max-width: 50%; margin: 0px auto;">
+
+<span class="tags"><p>{% for tag in site.tags %}<a href="/tags.html#{{ tag[0] | replace: ' ', '' }}" rel={{ tag[1] | size }}><code>{{ tag[0] }}</code></a> {% endfor %}</p></span>
+
+</div>
+
+{% for tag in site.tags %}
+<div class="row" id="{{ tag[0] | replace: ' ', '' }}">
+	<h3>{{ tag[0] }}</h3>
+	{% for post in tag[1] %}
+	{% include archive_link.html %}
+	{% endfor %}
+</div>
+
+{% endfor %}

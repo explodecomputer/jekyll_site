@@ -7,12 +7,25 @@ categories:
 tags:
 - History
 - USA
+published: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
 <!--more-->
+
+## This is a subheading
+
+Jekyll also offers powerful support for code snippets:
+Jekyll also offers powerful support for code snippets:
+Jekyll also offers powerful support for code snippets:
+
+### This is a sub sub heading
+
+Jekyll also offers powerful support for code snippets:
+Jekyll also offers powerful support for code snippets:
+Jekyll also offers powerful support for code snippets:
 
 * * *
 

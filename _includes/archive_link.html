@@ -1,0 +1,4 @@
+<p class="archive">
+	<span class="date">{{ post.date | date: "%Y-%m-%d" }} </span>
+	<span class="cat"><a href="{{ post.categories[0] }}.html">{{ post.categories[0] | parse_category }}</a></span> - <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+</p>

@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-sm-10 contentcol">
       <div id="a">
-        <h2>{{ page.title }}</h2>
+        <h1>{{ page.title }}</h1>
       </div>
       <div id="b">
 {{ content }}
@@ -23,7 +23,7 @@
           <p><span class="category">Category:</span><br/>
             <a href="/{{ page.categories[0] }}.html">{{ page.categories[0] | parse_category }}</a></p>
           <p><span class="category">Tags:</span><br/>
-            {% for tag in page.tags %}<code><a href="#">{{ tag }}</a></code> {% endfor %}</p></p>
+            {% for tag in page.tags %}<code><a href="/tags.html#{{ tag | replace: ' ', '' }}">{{ tag }}</a></code> {% endfor %}</p></p>
           <p><span class="category">Previous post:</span><br/>
             <a href="{{page.previous.url}}" title="{{page.previous.title}}">{{page.previous.title}}</a></p>
           <p><span class="category">Next post:</span><br/>

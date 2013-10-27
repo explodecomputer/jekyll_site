@@ -66,6 +66,10 @@ body
   height: 30px;
 }
 
+#icons a {
+  border: none;
+}
+
 #ccont code {
   font-family: 'Courier new', monospace;
   border: none;

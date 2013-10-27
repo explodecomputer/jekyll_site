@@ -29,9 +29,26 @@ h1 {
   font-size: 48px;
 }
 
-h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+h1 {
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+  padding: 20px 0px;
 }
+
+h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 24px;
+  padding: 20px 0px 10px 0px;
+}
+
+h3 {
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
+  color: #56524B;
+  font-size: 20px;
+  padding: 10px 0px 5px 0px;
+}
+
 
 p img {
   max-width: 80%;
@@ -39,6 +56,11 @@ p img {
   margin-right: auto;
   margin-left: auto;
   padding: 15px 0px;
+}
+
+iframe {
+  display: block;
+  margin: 15px auto;
 }
 
 p code {

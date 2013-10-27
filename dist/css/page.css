@@ -1,0 +1,154 @@
+
+h2 a {
+  font-family: 'Droid Serif', serif;
+  font-size: 20px;
+  color: #D87939;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+h2 a:hover {
+  border-bottom: #D87939 1px solid;
+  color: #D87939;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Droid Serif', serif;
+  font-size: 16px;
+  color: #ffeeee;
+}
+
+
+p {
+  color: #ffeeee;
+}
+
+.date {
+  color: #D39797;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.spacing {
+  padding-top: 10px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #ffeeee;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.post {
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+}
+
+.post p a {
+  color: #ffeeee;
+}
+
+.post p a:hover {
+  color: #ffeeee;
+  text-decoration: none;
+}
+
+.post p code {
+  background-color: transparent;
+  border: none;
+  color: #ffeeee;
+}
+
+.tags p code {
+  background-color: #333;
+  color: #D39797;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: 1px;
+}
+
+.tags p a  {
+  border: none;
+}
+
+.tags p code:hover {
+  border: #D39797 1px solid;
+  margin: 0px;
+}
+
+h2 {
+    font-family: 'Droid Serif', serif;
+    color: #ffeeee;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+}
+
+ul, li, ol {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: #ffeeee;
+}
+
+ul {
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+a {
+    color: #D87939;
+    text-decoration: none;
+    border-bottom: #554444 1px dotted;
+}
+
+a:hover {
+    color: #D87939;
+    border-bottom: #D87939 1px dotted;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D87939;
+}
+
+
+.archive .cat a {
+    border: none;
+    font-family: 'IM Fell Double Pica', serif;
+    font-style: italic;
+    color: #ffeeee;
+}
+
+.archive .cat a:visited {
+    color: #ffeeee;
+}
+
+.archive .cat a:hover {
+    color: #ffeeee;
+    border-bottom: #ffeeee 1px dotted;
+}
+
+.archive .title a {
+    color: #D87939;
+}
+
+
+h4 a {
+    color: #ffeeee;
+    font-family: 'IM Fell Double Pica', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h4 a:visited {
+    color: #ffeeee;
+}
+
+h4 a:hover {
+    color: #D87939;
+}
