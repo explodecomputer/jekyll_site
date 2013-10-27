@@ -17,10 +17,6 @@ So half way through this book I realised that that word in the title is "angels"
 
 {% youtube l7AWnfFRc7g %}
 
-<div id="home">
-  <div class="posts">
-    {% for post in site.categories[page.title] %}
-		{% include post_link.html %}
-    {% endfor %}
-  </div>
-</div>
+{% for post in site.categories[page.title] %}
+{% include post_link.html %}
+{% endfor %}

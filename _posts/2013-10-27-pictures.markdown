@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Some interesting pictures currently residing on my desktop"
+date: 2010-06-14 09:13:34
+categories: blog
+tags: [Pictures, Science, Calvin and Hobbes]
+---
+
+Chaos, personified as the Greek god of the air, described the dark and empty void before the earth was made. 
+
+<!--more-->
+
+Chaos refers to the entropy in potentia, inevitable but yet to arrive. So, to be accurate, my room is not in chaos. And neither is my desktop. Here are some pictures currently residing there as proof:
+
+![hydrogen]({{ site.url }}/assets/hydrogen.jpg)
+
+I have this poster in my office, can be bought from here. It was a Richard Dawkins misquote of a John P. Wiley Jr rephrasing of a quotation by Edward R. Harrison (1995).
+
+![teslareading]({{ site.url }}/assets/teslareading.jpg)
+
+Thomas Edison probably never saw this picture, otherwise he wouldn't have tried to save the world from the horror of A/C electricity, or make this video in doing so. Poor elephant.
+
+![cah-maths]({{ site.url }}/assets/cah-maths.jpg)
+
+It's not good, the nostalgia is too great, I see this image in sepia.

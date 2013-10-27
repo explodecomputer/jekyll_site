@@ -1,7 +1,12 @@
 ---
 layout: post
-title: %title%
-date: %date%
-categories: 
-tags: []
+title: "%title%"
+date: 
+categories: 100miles
+tags: [Environment, Food]
 ---
+
+
+<!--more-->
+
+

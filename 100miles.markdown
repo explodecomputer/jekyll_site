@@ -29,11 +29,6 @@ This map shows the area that I will define as 'local' for the vast majority of t
 
 It looks pretty big. Very rough estimate - 30% mountains, 30% sea, 30% farmland and 10% urban. Relatively speaking, Edinburgh is probably a really good place to try this.
 
-
-<div id="home">
-  <div class="posts">
-    {% for post in site.categories[page.title] %}
-		{% include post_link.html %}
-    {% endfor %}
-  </div>
-</div>
+{% for post in site.categories[page.title] %}
+{% include post_link.html %}
+{% endfor %}

@@ -14,10 +14,6 @@ h1 {
 ## *"A people's history of the United States of America"* by Howard Zinn
 
 
-<div id="home">
-  <div class="posts">
-    {% for post in site.categories[page.title] %}
-		{% include post_link.html %}
-    {% endfor %}
-  </div>
-</div>
+{% for post in site.categories[page.title] %}
+{% include post_link.html %}
+{% endfor %}

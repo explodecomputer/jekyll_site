@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Fedora 12 configuration notes"
+date: 2010-02-24 12:18:00
+categories: blog
+tags: [Linux, Fedora]
+---
+
+First thing to do is resize the Terminal window. This is critical.
+
+<!--more-->
+
+Edit the following line in the file `/usr/share/vte/termcap/xterm:`
+
+    :co#76:it#8:li#61:\
+
+Toggle 'hide buttons' for the menu bars to make them fit nicely. Good. OCD moment over.
+
+Then perform updates (generally ~600Mb)
+
+    yum update
+
+Remove desktop icons:
+
+    yum install gconf-editor
+    gconf-editor
+
+And then navigate to `apps` -> `nautilus` -> `desktop`, and untick things.
+
+
+Install emacs:
+
+    yum install emacs
+
+Launching without X window running (runlevel 3):
+
+From root, edit the file `/etc/inittab`, replacing the line:
+
+    d:5:initdefault
+
+to
+
+    d:3:initdefault
+
+To start X from the command line, use `startx`
+
+To revert to X from inside runlevel 3:
+
+    /sbin/init 5
+
+To end X session and return to command line:
+
+    killall X
+
+Setting up network connections for runlevel 3 requires the following lines to be included in the file `/etc/sysconfig/network-scripts/ifcg-wlan0`:
+
+    DEVICEC=wlan0
+    ONBOOT=yes
+    USERCTL=yes
+    BOOTPROTO=dhcp
+    MODE=Managed
+    TYPE=Wireless
+    ESSID=
+    RATE=54Mb/s
+
+For Atheros cards the ath5k kernal is now included as part of the default generic `wext` kernal.
