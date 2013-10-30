@@ -172,10 +172,10 @@ p img {
 }
 
 .ico_about {
-  background:transparent url('/assets/icons/small/user.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/about.png') center top no-repeat;
 }
 .ico_about:hover {
-  background-image: url('/assets/icons/small/user_mid.png');
+  background-image: url('/assets/icons/small/about_mid.png');
 }
 
 .ico_photography {
