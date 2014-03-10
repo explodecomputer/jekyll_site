@@ -14,20 +14,20 @@ h2 {
 }
 
 h2 a:hover {
-  border-bottom: #D87939 1px solid;
-  color: #D87939;
+  border-bottom: #292723 1px solid;
+  color: #292723;
   text-decoration: none;
 }
 
 h3 {
   font-family: 'Droid Serif', serif;
   font-size: 16px;
-  color: #ffeeee;
+  color: #292723;
 }
 
 
 p {
-  color: #ffeeee;
+  color: #292723;
 }
 
 .date {
@@ -42,7 +42,7 @@ p {
 
 h1 {
   font-family: 'Lobster', cursive;
-  color: #ffeeee;
+  color: #292723;
   padding: 20px 0px;
   text-align: center;
 }
@@ -53,26 +53,26 @@ h1 {
 }
 
 .post p a {
-  color: #ffeeee;
+  color: #292723;
 }
 
 .post p a:hover {
-  color: #ffeeee;
+  color: #292723;
   text-decoration: none;
 }
 
 .post p code {
   background-color: transparent;
   border: none;
-  color: #ffeeee;
+  color: #292723;
 }
 
 .tags p code {
-  background-color: #333;
-  color: #D39797;
+  background-color: #292723;
+  color: #ffeeee;
   border-radius: 4px;
   padding: 2px 4px;
-  margin: 1px;
+  /*margin: 1px;*/
 }
 
 .tags p a  {
@@ -80,13 +80,14 @@ h1 {
 }
 
 .tags p code:hover {
-  border: #D39797 1px solid;
-  margin: 0px;
+  /*border: #ffeeee 1px solid;*/
+  /*margin: 0px;*/
+  background-color: #D87939;
 }
 
 h2 {
     font-family: 'Droid Serif', serif;
-    color: #ffeeee;
+    color: #292723;
 }
 
 p {
@@ -96,7 +97,7 @@ p {
 ul, li, ol {
     font-family: 'Crimson Text', serif;
     font-size: 18px;
-    color: #ffeeee;
+    color: #292723;
 }
 
 ul {
@@ -125,32 +126,32 @@ a:visited {
     border: none;
     font-family: 'IM Fell Double Pica', serif;
     font-style: italic;
-    color: #ffeeee;
+    color: #292723;
 }
 
 .archive .cat a:visited {
-    color: #ffeeee;
+    color: #292723;
 }
 
 .archive .cat a:hover {
-    color: #ffeeee;
-    border-bottom: #ffeeee 1px dotted;
+    color: #292723;
+    border-bottom: #292723 1px dotted;
 }
 
 .archive .title a {
-    color: #D87939;
+    color: #292723;
 }
 
 
 h4 a {
-    color: #ffeeee;
+    color: #292723;
     font-family: 'IM Fell Double Pica', serif;
     font-style: italic;
     font-size: 20px;
 }
 
 h4 a:visited {
-    color: #ffeeee;
+    color: #292723;
 }
 
 h4 a:hover {

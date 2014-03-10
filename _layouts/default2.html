@@ -6,8 +6,15 @@
 
 
 </style>
+<!-- <link rel="stylesheet" type="text/css" href="css/dropdown.css" /> -->
+
+<script type="text/javascript" src="js/dropdown.js">
+</script>
 </head>
 <body>
+<!-- <div id="mypanel" class="ddpanel">
+<div id="mypanelcontent" class="ddpanelcontent">
+ -->
 <div class="container">
 	<div class="row">
 		<div class="col-sm-5">
@@ -17,7 +24,7 @@
 			<div id="ccont">
         {% include triangle.html %}
 				<div>
-          <p><span class="category">Go!</span><br/>
+<!--           <p><span class="category">Go!</span><br/>
             <code><a href="/blog.html">Blog</a></code><br/>
             <code><a href="/about.html">About</a></code><br/>
             <code><a href="/archive.html">Archive</a></code><br/>
@@ -26,7 +33,7 @@
             <code><a href="/photography.html">Photography</a></code><br/>
             <code><a href="/publications.html">Publications</a></code><br/>
           </p>
-					<p><span class="category">Most recent post:</span><br/>
+ -->					<p><span class="category">Most recent post:</span><br/>
             <a href="{{site.posts[0].url}}">{{ site.posts[0].title }}</a></p>
 				</div>
 				<hr>
@@ -38,3 +45,12 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- </div>
+<div id="mypaneltab" class="ddpaneltab">
+<a href="#"><span>Toggle</span></a>
+</div>
+
+</div>
+ -->

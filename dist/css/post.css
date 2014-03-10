@@ -1,21 +1,22 @@
-p {
+p, ul, li {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
+  /*color: #292723;*/
   color: #292723;
 }
 
-p a {
-  color: #5F129B;
+p a, li a {
+  color: #D87939;
   border-bottom: 1px solid #ddd;
   text-decoration: none;
 }
 
-p a:visited {
-  color: #5F129B;
+p a:visited, li a:visited {
+  color: #D87939;
 }
 
-p a:hover {
-  border-bottom: 1px solid #5F129B;
+p a:hover, li a:hover {
+  border-bottom: 1px solid #D87939;
   text-decoration: none;
 }
 
@@ -33,18 +34,21 @@ h1 {
   font-family: 'Droid Serif', serif;
   font-size: 40px;
   padding: 20px 0px;
+  color: #292723;
 }
 
 h2 {
   font-family: 'Droid Serif', serif;
   font-size: 24px;
   padding: 20px 0px 10px 0px;
+  color: #292723;
 }
 
 h3 {
   font-family: 'IM Fell Double Pica', serif;
   font-style: italic;
-  color: #56524B;
+  /*color: #56524B;*/
+  color: #292723;
   font-size: 20px;
   padding: 10px 0px 5px 0px;
 }
@@ -57,6 +61,7 @@ p code {
   border-radius: 4px;
   padding: 2px;
   font-size: 14px;
+  color: #292723;
 }
 
 
@@ -69,13 +74,12 @@ p code {
 {
   position: relative;
   padding: 20px 0px 0px 50px;
-  background-color: #ffeeee;
 }
 
 #b
 {
   position: relative;
   padding: 20px 50px 40px 50px;
-  background-color: #ffeeee;
+  /*background-color: #ffeeee;*/
 }
 

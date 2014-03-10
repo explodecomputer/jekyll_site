@@ -2,7 +2,7 @@
 p {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
-  color: #292723;
+  color: #ffeeee;
 }
 
 p code {
@@ -16,7 +16,7 @@ p code {
 
 body
 {
-  background-color: #292723;
+  background-color: #ffeeee;
   margin-top: 0px;
 }
 
@@ -29,9 +29,13 @@ body
 }
 
 #ccont p {
-  color: #D39797;
+  color: #292723;
   /*padding-left: 20px;*/
 }
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
 
 #ccont p a {
   color: #D87939;
@@ -49,7 +53,7 @@ body
 }
 
 .contentcol {
-  background-color: #ffeeee;
+  /*background-color: #ffeeee;*/
 }
 
 .sidecol {
@@ -87,9 +91,16 @@ body
   font-style: normal;
   border-radius: 4px;
   border: none;
-  color: #292723;
+  color: #ffeeee;
   padding: 2px 4px;
   /*margin: 0px 1px;*/
+}
+
+#ccont code a:hover {
+  text-decoration: none;
+  border: none;
+  /*margin: 0px;*/
+  background-color: #D87939;
 }
 
 #ccont code a .current {
@@ -97,13 +108,6 @@ body
 }
 
 #ccont code .current a {
-  color: #ffeeee;
-}
-
-#ccont code a:hover {
-  text-decoration: none;
-  border: none;
-  /*margin: 0px;*/
   color: #ffeeee;
 }
 
@@ -118,8 +122,88 @@ iframe {
 
 p img {
   max-width: 80%;
-  display: block;
+  display: block-inline;
   margin-right: auto;
   margin-left: auto;
   padding: 15px 0px;
+  text-align: center;
 }
+
+
+/* menu icons */
+
+.middle {
+  margin: 0px auto;
+}
+
+.ico_home, .ico_twitter, .ico_github, .ico_links, .ico_about, .ico_photography, .ico_categories, .ico_tags, .ico_archive {
+  margin-bottom: -5px;
+  width: 30px;
+  height:30px;
+  display:inline-block;
+}
+
+.ico_home {
+  background:transparent url('/assets/icons/small/home.png') center top no-repeat;
+}
+.ico_home:hover {
+  background-image: url('/assets/icons/small/home_mid.png');
+}
+
+.ico_twitter {
+  background:transparent url('/assets/icons/small/twitter.png') center top no-repeat;
+}
+.ico_twitter:hover {
+  background-image: url('/assets/icons/small/twitter_mid.png');
+}
+
+.ico_github {
+  background:transparent url('/assets/icons/small/github.png') center top no-repeat;
+}
+.ico_github:hover {
+  background-image: url('/assets/icons/small/github_mid.png');
+}
+
+.ico_links {
+  background:transparent url('/assets/icons/small/links.png') center top no-repeat;
+}
+.ico_links:hover {
+  background-image: url('/assets/icons/small/links_mid.png');
+}
+
+.ico_about {
+  background:transparent url('/assets/icons/small/about.png') center top no-repeat;
+}
+.ico_about:hover {
+  background-image: url('/assets/icons/small/about_mid.png');
+}
+
+.ico_photography {
+  background:transparent url('/assets/icons/small/photography.png') center top no-repeat;
+}
+.ico_photography:hover {
+  background-image: url('/assets/icons/small/photography_mid.png');
+}
+
+.ico_categories {
+  background:transparent url('/assets/icons/small/categories.png') center top no-repeat;
+}
+.ico_categories:hover {
+  background-image: url('/assets/icons/small/categories_mid.png');
+}
+
+.ico_tags {
+  background:transparent url('/assets/icons/small/tags.png') center top no-repeat;
+}
+.ico_tags:hover {
+  background-image: url('/assets/icons/small/tags_mid.png');
+}
+
+.ico_archive {
+  background:transparent url('/assets/icons/small/archive.png') center top no-repeat;
+}
+.ico_archive:hover {
+  background-image: url('/assets/icons/small/archive_mid.png');
+}
+
+
