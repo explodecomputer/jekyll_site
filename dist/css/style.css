@@ -45,7 +45,7 @@ hr { display: block; height: 1px;
 }
 
 #ccont p a:hover {
-  border-bottom: 1px solid #D87939;
+  /*border-bottom: 1px solid #D87939;*/
 }
 
 .answer {
@@ -63,6 +63,7 @@ hr { display: block; height: 1px;
 #icons {
   position: relative;
   padding: 20px 0px;
+  text-align: center;
 }
 
 #icons img {
@@ -144,66 +145,91 @@ p img {
 }
 
 .ico_home {
-  background:transparent url('/assets/icons/small/home.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/home_light.png') center top no-repeat;
 }
 .ico_home:hover {
   background-image: url('/assets/icons/small/home_mid.png');
 }
 
 .ico_twitter {
-  background:transparent url('/assets/icons/small/twitter.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/twitter_light.png') center top no-repeat;
 }
 .ico_twitter:hover {
   background-image: url('/assets/icons/small/twitter_mid.png');
 }
 
 .ico_github {
-  background:transparent url('/assets/icons/small/github.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/github_light.png') center top no-repeat;
 }
 .ico_github:hover {
   background-image: url('/assets/icons/small/github_mid.png');
 }
 
 .ico_links {
-  background:transparent url('/assets/icons/small/links.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/links_light.png') center top no-repeat;
 }
 .ico_links:hover {
   background-image: url('/assets/icons/small/links_mid.png');
 }
 
 .ico_about {
-  background:transparent url('/assets/icons/small/about.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/about_light.png') center top no-repeat;
 }
 .ico_about:hover {
   background-image: url('/assets/icons/small/about_mid.png');
 }
 
 .ico_photography {
-  background:transparent url('/assets/icons/small/photography.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/photography_light.png') center top no-repeat;
 }
 .ico_photography:hover {
   background-image: url('/assets/icons/small/photography_mid.png');
 }
 
 .ico_categories {
-  background:transparent url('/assets/icons/small/categories.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/categories_light.png') center top no-repeat;
 }
 .ico_categories:hover {
   background-image: url('/assets/icons/small/categories_mid.png');
 }
 
 .ico_tags {
-  background:transparent url('/assets/icons/small/tags.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/tags_light.png') center top no-repeat;
 }
 .ico_tags:hover {
   background-image: url('/assets/icons/small/tags_mid.png');
 }
 
 .ico_archive {
-  background:transparent url('/assets/icons/small/archive.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/archive_light.png') center top no-repeat;
 }
 .ico_archive:hover {
   background-image: url('/assets/icons/small/archive_mid.png');
 }
 
 
+
+.tags p code {
+  background-color: #888888;
+  color: #292723;
+  border-color: #888888;
+  border-radius: 8px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+  /*margin: 1px;*/
+}
+
+.tags p a  {
+  border: none;
+}
+
+.tags a code:hover {
+  /*border: #ffeeee 1px solid;*/
+  /*margin: 0px;*/
+  background-color: #D87939;
+  border-color: #D87939;
+  text-decoration: none;
+  border-collapse: #D87939;
+  color: #ffeeee;
+}

@@ -1,26 +1,40 @@
 .ddpanel .ddpanelcontent{ /*CSS for "content" DIV of Drop Down Panel*/
 color: white;
-background: black; /*background of Drop Down Panel*/
+background: #292723; /*background of Drop Down Panel*/
 /*Do NOT add any "padding" or "margin" properties here! Any padding/margin should be added to your content's container within this DIV instead */
 }
 
 .ddpanel .ddpaneltab{ /*CSS for "toggle" tab DIV of Drop Down Panel*/
-margin-right: 20px;
+margin-right: 150px;
 font: normal 12px Arial;
 }
 
+@media(max-width:767px){
+	.ddpanel .ddpaneltab{ /*CSS for "toggle" tab DIV of Drop Down Panel*/
+		margin-right: 0px;
+	}
+}
+
 .ddpanel .ddpaneltab a{ /*"toggle" tab related CSS*/
-float: right;
-color: white;
-background: black url(toggleleft.gif) no-repeat left bottom; /*background of toggle tab*/
-text-decoration: none;
-letter-spacing: 1px;
+	float: right;
+	/*float: center;*/
+	color: white;
+	/*background: #292723 url(toggleleft.gif) no-repeat left bottom; /*background of toggle tab*/*/
+	text-decoration: none;
+	letter-spacing: 10px;
+	padding: 5px;
+	border-color: #292723;
+	border-style: solid;
+	border-width: : 0px 1px 1px 1px;
+	background-color: #292723;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
 }
 
 .ddpanel .ddpaneltab a span{ /*"toggle" tab related CSS*/
-float: left;
+/*float: left;*/
 display: block;
-background: transparent url(toggleright.gif) no-repeat right bottom;
+/*background: transparent url(toggleright.gif) no-repeat right bottom;*/
 padding: 1px 12px 4px 13px;
 cursor: pointer;
 }
@@ -30,14 +44,73 @@ margin-top: 2px;
 margin-left: 5px;
 }
 
-.ddpanel .ddpaneltab a:hover{ /*"toggle" tab related CSS*/
-background-color: navy; /*background of toggle tab onMouseover*/
-}
-
 .ddpanel .ddpaneltab a:active, .ddpanel .ddpaneltab a:focus{ /*"toggle" tab related CSS*/
 outline: 0;
 }
 
 .ddpanel .ddpaneltab a:hover span{ /*"toggle" tab related CSS*/
 background-color: transparent;
+}
+
+p.welcome {
+	text-align: center;
+	color: #ffeeee;
+	font-size: 30px;
+	font-family: 'Courier new', monospace;
+}
+
+p.quotation {
+	color: #292723;
+	font-size: 40px;
+	/*border-left: 1px solid #292723;*/
+	/*border-right: 1px solid #292723;*/
+	padding-left: 5px;
+	margin-top: 100px;
+}
+
+p.citation {
+  font-size: 10px;
+  color: white;
+  font-family: 'Courier new', monospace;
+  background-color: #292723;
+  border: 1px solid #292723;
+  border-bottom-right-radius: 20px;
+  /*border-top-left-radius: 20px;*/
+  padding: 10px;
+  text-align: left;
+  /*transform: rotate(90deg);*/
+  /*transform-origin: left top 0;*/
+}
+
+@media(max-width:767px){
+	p.citation {
+		transform: rotate(0deg);
+		margin-left: 0px;
+	}
+}
+
+
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: auto;
+     top: 0;
+    }
+}
+
+.myname {
+	color: #292723; 
+	background-color: #D87939; 
+	border-radius: 8px; 
+	padding: 2px 4px;	
+}
+
+a .myname:hover {
+	color: #ffeeee;
+	text-decoration: none;
+}
+
+
+a:hover {
+	text-decoration: none;
 }
