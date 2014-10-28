@@ -1,6 +1,6 @@
 name: explodecomputer
 markdown: redcarpet
-pygments: true
+highlighter: 'pygments'
 permalink: none
 excerpt_separator: <!--more-->
 flickr_set:

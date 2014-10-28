@@ -1,0 +1,22 @@
+<div id="mypanel" class="ddpanel">
+	<div id="mypanelcontent" class="ddpanelcontent">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-2" style="margin-top: 30px;">
+					{% include triangle.html %}
+				</div>
+				<div class="col-sm-4">
+					<div class="row post" style="max-width: 100%; margin: 30px auto; text-align: left;">
+						<span class="tags"><p>{% for tag in site.tags %}<a href="/tags.html#{{ tag[0] | replace: ' ', '' }}" rel={{ tag[1] | size }}><code>{{ tag[0] }}</code></a> {% endfor %}</p></span>
+						<p style="font-family: 'Lobster'; border-top: 1px solid #ffeeee; margin-top: 20px; padding-top: 10px;">Hello!<br/>I am <a href="mailto:explodecomputer@gmail.com"><span class="myname">Gibran Hemani</span></a> - welcome to my website.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="mypaneltab" class="ddpaneltab">
+	<a href="#"><span></span></a>
+	</div>
+</div>

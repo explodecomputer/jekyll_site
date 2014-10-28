@@ -1,4 +1,3 @@
-
 p {
   font-family: 'Crimson Text', serif;
   font-size: 18px;
@@ -232,4 +231,67 @@ p img {
   text-decoration: none;
   border-collapse: #D87939;
   color: #ffeeee;
+}
+
+p.welcome {
+  text-align: center;
+  color: #ffeeee;
+  font-size: 30px;
+  font-family: 'Courier new', monospace;
+}
+
+p.quotation {
+  color: #292723;
+  font-size: 40px;
+  /*border-left: 1px solid #292723;*/
+  /*border-right: 1px solid #292723;*/
+  padding-left: 5px;
+  margin-top: 100px;
+}
+
+p.citation {
+  font-size: 10px;
+  color: white;
+  font-family: 'Courier new', monospace;
+  background-color: #292723;
+  border: 1px solid #292723;
+  border-bottom-right-radius: 20px;
+  /*border-top-left-radius: 20px;*/
+  padding: 10px;
+  text-align: left;
+  /*transform: rotate(90deg);*/
+  /*transform-origin: left top 0;*/
+}
+
+@media(max-width:767px){
+  p.citation {
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+}
+
+
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: auto;
+     top: 0;
+    }
+}
+
+.myname {
+  color: #292723; 
+  background-color: #D87939; 
+  border-radius: 8px; 
+  padding: 2px 4px; 
+}
+
+a .myname:hover {
+  color: #ffeeee;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
 }
