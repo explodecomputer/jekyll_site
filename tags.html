@@ -1,23 +1,40 @@
 ---
-layout: default
+layout: droppanel
 title: Tags
 group: Tags
+extra_css:
+  - /css/tags.css
 ---
 
-<h1>Tags</h1>
-
-<div class="row post" style="max-width: 50%; margin: 0px auto;">
-
-<span class="tags"><p>{% for tag in site.tags %}<a href="/tags.html#{{ tag[0] | replace: ' ', '' }}" rel={{ tag[1] | size }}><code>{{ tag[0] }}</code></a> {% endfor %}</p></span>
-
-</div>
-
-{% for tag in site.tags %}
-<div class="list-group" id="{{ tag[0] | replace: ' ', '' }}">
-	<h3>{{ tag[0] }}</h3>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<h1>List of tags</h1>
+		</div>
+	</div>
+	{% assign sorted_tags = (site.tags | sort:0) %}
+	{% for tag in sorted_tags %}
+	<div class="row list-group" id="{{ tag[0] | replace: ' ', '' }}">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<h3>{{ tag[0] }}</h3>
+		</div>
+	</div>
 	{% for post in tag[1] %}
-	{% include archive_link.html %}
+	<div class="row list-group">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-2 date">
+			{{ post.date | date: "%d %b %Y" }}
+		</div>
+		<div class="col-md-4">
+			<p class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a><p>
+			<p class="postcat">[<a href="{{ post.categories[0] }}.html">{{ post.categories[0] | parse_category }}</a>]</p>
+		</div>
+	</div>
+	{% endfor %}
 	{% endfor %}
 </div>
-
-{% endfor %}

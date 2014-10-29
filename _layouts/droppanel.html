@@ -3,6 +3,9 @@
 <head>
 	{% include header.html %}
 	<link rel="stylesheet" type="text/css" href="css/droppanel.css" />
+	{% for css_name in page.extra_css %}
+    <link rel="stylesheet" href="{{ css_name }}">
+	{% endfor %}
 </head>
 <body>
 

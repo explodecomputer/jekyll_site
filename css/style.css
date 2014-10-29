@@ -136,75 +136,141 @@ p img {
   margin: 0px auto;
 }
 
-.ico_home, .ico_twitter, .ico_github, .ico_links, .ico_about, .ico_photography, .ico_categories, .ico_tags, .ico_archive {
+.ico_home, .ico_twitter, .ico_github, .ico_links, .ico_about, .ico_photography, .ico_categories, .ico_tags, .ico_archive, .ico_light_home, .ico_light_twitter, .ico_light_github, .ico_light_links, .ico_light_about, .ico_light_photography, .ico_light_categories, .ico_light_tags, .ico_light_archive {
   margin-bottom: -5px;
   width: 30px;
   height:30px;
   display:inline-block;
 }
 
-.ico_home {
+.ico_light_home {
   background:transparent url('/assets/icons/small/home_light.png') center top no-repeat;
+}
+.ico_light_home:hover {
+  background-image: url('/assets/icons/small/home_mid.png');
+}
+
+.ico_light_twitter {
+  background:transparent url('/assets/icons/small/twitter_light.png') center top no-repeat;
+}
+.ico_light_twitter:hover {
+  background-image: url('/assets/icons/small/twitter_mid.png');
+}
+
+.ico_light_github {
+  background:transparent url('/assets/icons/small/github_light.png') center top no-repeat;
+}
+.ico_light_github:hover {
+  background-image: url('/assets/icons/small/github_mid.png');
+}
+
+.ico_light_links {
+  background:transparent url('/assets/icons/small/links_light.png') center top no-repeat;
+}
+.ico_light_links:hover {
+  background-image: url('/assets/icons/small/links_mid.png');
+}
+
+.ico_light_about {
+  background:transparent url('/assets/icons/small/about_light.png') center top no-repeat;
+}
+.ico_light_about:hover {
+  background-image: url('/assets/icons/small/about_mid.png');
+}
+
+.ico_light_photography {
+  background:transparent url('/assets/icons/small/photography_light.png') center top no-repeat;
+}
+.ico_light_photography:hover {
+  background-image: url('/assets/icons/small/photography_mid.png');
+}
+
+.ico_light_categories {
+  background:transparent url('/assets/icons/small/categories_light.png') center top no-repeat;
+}
+.ico_light_categories:hover {
+  background-image: url('/assets/icons/small/categories_mid.png');
+}
+
+.ico_light_tags {
+  background:transparent url('/assets/icons/small/tags_light.png') center top no-repeat;
+}
+.ico_light_tags:hover {
+  background-image: url('/assets/icons/small/tags_mid.png');
+}
+
+.ico_light_archive {
+  background:transparent url('/assets/icons/small/archive_light.png') center top no-repeat;
+}
+.ico_light_archive:hover {
+  background-image: url('/assets/icons/small/archive_mid.png');
+}
+
+
+
+.ico_home {
+  background:transparent url('/assets/icons/small/home.png') center top no-repeat;
 }
 .ico_home:hover {
   background-image: url('/assets/icons/small/home_mid.png');
 }
 
 .ico_twitter {
-  background:transparent url('/assets/icons/small/twitter_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/twitter.png') center top no-repeat;
 }
 .ico_twitter:hover {
   background-image: url('/assets/icons/small/twitter_mid.png');
 }
 
 .ico_github {
-  background:transparent url('/assets/icons/small/github_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/github.png') center top no-repeat;
 }
 .ico_github:hover {
   background-image: url('/assets/icons/small/github_mid.png');
 }
 
 .ico_links {
-  background:transparent url('/assets/icons/small/links_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/links.png') center top no-repeat;
 }
 .ico_links:hover {
   background-image: url('/assets/icons/small/links_mid.png');
 }
 
 .ico_about {
-  background:transparent url('/assets/icons/small/about_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/about.png') center top no-repeat;
 }
 .ico_about:hover {
   background-image: url('/assets/icons/small/about_mid.png');
 }
 
 .ico_photography {
-  background:transparent url('/assets/icons/small/photography_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/photography.png') center top no-repeat;
 }
 .ico_photography:hover {
   background-image: url('/assets/icons/small/photography_mid.png');
 }
 
 .ico_categories {
-  background:transparent url('/assets/icons/small/categories_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/categories.png') center top no-repeat;
 }
 .ico_categories:hover {
   background-image: url('/assets/icons/small/categories_mid.png');
 }
 
 .ico_tags {
-  background:transparent url('/assets/icons/small/tags_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/tags.png') center top no-repeat;
 }
 .ico_tags:hover {
   background-image: url('/assets/icons/small/tags_mid.png');
 }
 
 .ico_archive {
-  background:transparent url('/assets/icons/small/archive_light.png') center top no-repeat;
+  background:transparent url('/assets/icons/small/archive.png') center top no-repeat;
 }
 .ico_archive:hover {
   background-image: url('/assets/icons/small/archive_mid.png');
 }
+
 
 
 

@@ -1,0 +1,51 @@
+h1 {
+  font-family: 'Lobster';
+  font-size: 40px;
+  margin: 80px 0px;
+}
+
+.list-group h3 {
+  font-family: monospace;
+  display: inline;
+  background-color: #888888;
+  color: #ffeeee;
+  border-color: #888888;
+  border-radius: 8px;
+  padding: 4px 6px;
+  font-size: 18px;
+}
+
+.list-group .date {
+  font-family: monospace;
+  text-align: right;
+  color: #888888;
+  font-size: 12px;
+}
+
+.list-group .posttitle a {
+  font-family: "Crimson Text";
+  font-size: 24px;
+  color: #292723;
+  text-decoration: underline;
+}
+
+.list-group .posttitle a:hover {
+  color: #D87939;
+}
+
+.list-group p {
+  color: #292723;
+  font-size: 12px;
+}
+
+.list-group .postcat a {
+  font-family: monospace;
+  font-size: 12px;
+  color: #D87939;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.list-group .postcat a:hover {
+  text-decoration: underline;
+}
