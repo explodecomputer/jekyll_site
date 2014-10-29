@@ -49,3 +49,8 @@ h1 {
 .list-group .postcat a:hover {
   text-decoration: underline;
 }
+
+.bordertop {
+  border-top: 1px solid #888888; 
+  padding-top: 30px;
+}
